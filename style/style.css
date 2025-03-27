@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "GTEestiPro";
+  src: url("../fonts/GTEestiProText-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+element {
+  --blue-color: #005bff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "GTEestiPro";
+}
+
+.container {
+  max-width: 1416px;
+  margin: auto;
+}
+
+.logo img {
+  width: 140px;
+  height: 44px;
+}
+
+.header-top {
+  display: flex;
+  gap: 18px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #005bff;
+  width: 125px;
+  height: 44px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 0.1em;
+  gap: 10px;
+}
+
+.block {
+  height: 7px;
+  width: 7px;
+  background-color: #fff;
+  border-radius: 2px;
+  display: inline-block;
+}
+.window-img {
+  line-height: 11px;
+}
+
+.header-form {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  width: 634px;
+  background-color: #005bff;
+  border-radius: 10px;
+  padding-left: 2px;
+}
+
+.header-form form {
+  width: 560px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 10px;
+  color: rgb(136, 136, 136);
+}
+
+.header-form img {
+  height: 24px;
+}
+
+.blue-action:hover {
+  color: #005bff;
+  cursor: pointer;
+}
+
+.search {
+  height: 30px;
+  flex-grow: 1;
+  font-size: 16px;
+  border: none;
+}
+.search-img {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 10px;
+}
+.header-menu-card {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.header-menu-card .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.header-menu-card .card img {
+  width: 24px;
+}
+
+.header-bottom {
+  padding-top: 10px;
+  display: flex;
+}
+
+header ol {
+  list-style-type: none;
+}
+
+header ol li {
+  display: inline;
+  color: rgb(166, 171, 171);
+  margin-right: 8px;
+  transition: 0.1s;
+}
+
+header ol li:hover {
+  color: #005bff;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.green-default {
+  color: rgb(83, 189, 154);
+}
+
+.header-bottom .location {
+  flex-grow: 1;
+  text-align: right;
+}
+.content-line img {
+  scale: 1.1;
+}
+
+.content-line {
+  border-radius: 30px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.banner {
+  padding: 30px 0px 30px 30px;
+  font-size: 30px;
+  margin-left: 20px;
+  border-radius: 20px;
+  width: 252px;
+  height: 306px;
+  background-image: url("https://ir-3.ozone.ru/s3/blackfriday-widgets-api-images/img/wc400/533_counterFlex_desktop_lastDayBgImage_f9f48378-afa1-4eba-8bb1-e999f49c8216.png");
+  background-size: cover;
+}
+
+mark {
+  background-color: black;
+  color: white;
+  font-weight: 800;
+}
